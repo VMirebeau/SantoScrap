@@ -1,5 +1,4 @@
-
-let cancel = false;
+cancel = false;
 
 // Fonction pour charger un script externe avec une promesse
 function loadScript(url) {
