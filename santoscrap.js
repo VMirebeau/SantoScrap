@@ -1,3 +1,4 @@
+
 cancel = false;
 
 // Fonction pour charger un script externe avec une promesse
@@ -591,7 +592,7 @@ function retrieveCopiesAndDownload() {
                 // Charger les dépendances uniquement si des copies sont trouvées
                 if (copiesRows.length > 0) {
                     loadDependencies().then(() => {
-                        console.log("Prêt à télécharger les fichiers. Appelez la fonction `telecharger(x, y)` pour démarrer.");
+                        console.log("Prêt à télécharger les fichiers. Affichage de la popup.");
                         showPopup();
                     }).catch((error) => {
                         erreur(error);
